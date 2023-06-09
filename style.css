@@ -1,0 +1,818 @@
+ *{
+			  cursor: url(./img/cut.png), auto;
+		  }
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+time{
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	padding-inline-start: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.clearfix:before {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.header-buckground,
+a,
+.humble-content-circle {
+	color: white;
+}
+
+.upper,
+button,
+h3 {
+	text-transform: uppercase;
+}
+
+.yellow {
+	background-color: #fed136;
+}
+
+h5, 
+time,
+button,
+h3,
+h1,
+.menu,
+.button,
+li>a {
+	font-family: "Montserrat", sans-serif;
+}
+
+.bold,
+.humble-content-circle {
+	font-weight: bold;
+}
+
+.black {}
+
+.hidden {
+	visibility: hidden;
+}
+
+h4,
+h6,
+.home-welcome,
+.article-subtitle {
+	font-family: 'Vollkorn';
+	font-style: italic;
+}
+
+h4 {
+	font-size: 20px;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-size: 40px;
+}
+
+.article-description {
+	font-family: "Roboto Slab", sans-serif;
+}
+
+.title,
+.article-title {
+	font-weight: bold;
+	color: black;
+}
+
+.subtitle,
+.article-description,
+.team-discription,
+.article-subtitle,
+.footer-copyright {
+	color: #777777;
+}
+
+
+/*..........................*/
+
+
+/*........imports..........*/
+
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+/*.....................*/
+
+
+/*....main container.........*/
+
+.nav-width,
+.services-block,
+.services,
+.logos,
+.contact-wrapper,
+.footer,
+.wrapper,
+.team-wrapper {
+	max-width: 940px;
+	margin: auto;
+}
+
+.main-container,
+.contactus {
+	margin: auto;
+	padding: auto;
+}
+
+.logo {
+	display: inline-block;
+	padding-top: 36px;
+	float: left;
+	font-family: 'Cookie';
+	font-size: 36px;
+	color: #fed136;
+}
+
+.logo:hover {
+	color: #f7f7f7;
+}
+
+.menu {
+	float: right;
+	text-align: center;
+	padding-top: 36px;
+}
+
+.menu-item li {
+	display: inline-block;
+	text-align: right;
+	padding-left: 38px;
+}
+
+.menu-item li a:hover {
+	color: #fed136;
+}
+
+
+/*.....................*/
+
+
+/*.......home..........*/
+
+.header-buckground {
+	background: url(./img/fondr.jpg) no-repeat center top / cover;
+	text-align: center;
+  padding: 10px;
+}
+
+.home-welcome {
+	font-size: 45px;
+	font-width: normal;
+	padding-top: 200px;
+}
+
+h1 {
+	font-size: 75px;
+}
+
+.home-intro {
+	padding-bottom: 160px;
+}
+
+.button {
+	border-radius: 3px;
+	background-color: #fed136;
+	display: inline-block;
+	width: 240px;
+	padding: 21px 0;
+}
+
+.button:hover {
+	background-color: #777777;
+	color: #fed136;
+	opacity: 0.5;
+}
+
+.home-tellmemore,
+.humble-content-circle,
+.contactus-button,
+.circle-demo {
+	font-family: "Montserrat", sans-serif;
+	color: white;
+	font-size: 18px;
+	font-width: bold;
+	text-align: center;
+}
+
+.home-tellmemore{
+  margin-bottom: 150px;
+  text-align: center;
+  
+}
+/*.....................*/
+
+
+/*.......services.........*/
+
+.services-block {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+  margin-bottom: 80px;
+}
+
+.services-article {
+	display: inline-block;
+	width: 33%;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+	margin: auto;
+	padding: 10px;
+	padding-top: 0;
+}
+
+.article-title {
+	font-size: 18px;
+}
+
+.article-description {
+	font-size: 14px;
+}
+
+.subtitle,
+.title {
+	top: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	padding-top: 120px;
+}
+
+.subtitle {
+	padding-bottom: 80px;
+}
+
+.services-sprite{
+	display: inline-block;
+	background-image: url(https://image.ibb.co/fHmBbK/Service_sprite.png);
+	background-repeat: no-repeat;
+	width: 80px;
+  height: 80px;
+	text-align: center;
+}
+
+.e-commerce-circle {
+	background-position: -340px 0px;
+}
+
+.e-commerce-circle:hover{
+	background-position: -10px 0;
+}
+
+.responsive-web-circle{
+  background-position: -430px 0px;
+}
+
+.responsive-web-circle:hover{
+  background-position: -100px 0;
+}
+
+.web-security-circle{
+  background-position: -520px 0px;
+}
+
+.web-security-circle:hover{
+  background-position: -190px 0;
+}
+
+/*.....................*/
+
+
+/*......portfolio..........*/
+
+.portfolio {
+	background-color: #f7f7f7;
+	margin: auto;
+  /* border: 4px solid blue; */
+}
+
+.portfolio-gallery-row1-item,
+.portfolio-gallery-row2-item {
+	position: relative;
+	display: inline-block;
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	width: 300px;
+	text-align: center;
+	vertical-align: top;
+ /* border: 4px solid blue; */
+  margin: 5px;
+  margin-bottom: 55px;
+  margin-top: 0px;
+  
+  
+}
+
+.portfolio-gallery-row1-item>img,
+.portfolio-gallery-row2-item>img{
+  padding-bottom: 20px; 
+} 
+
+.portfolio-gallery-row2-item{
+   margin-bottom: 120px;
+}
+
+.demo {
+	width: 291px;
+	height: 300px;
+  /* border: 4px solid blue; */
+  
+}
+
+.article-subtitle {
+	font-size: 17px;
+}
+
+
+/*.....................*/
+
+
+/*....About Us.....................*/
+
+.aboutus-column {
+	display: inline-block;
+	height: 1400px;
+	text-align: center;
+  margin-top: 10px;
+	/*border: 4px solid green; */
+}
+
+.aboutus-column:after {
+	background-image: url(https://image.ibb.co/cA6hgy/Vertical_Line_4.png);
+	background-size: 5px;
+	position: absolute;
+	content: '';
+	display: block;
+	width: 5px;
+	left: 50%;
+	margin-left: -2px;
+	top: 290px;
+	bottom: 58px;
+	/* border: 4px solid yellow; */
+	z-index: 0;
+}
+
+.aboutus-head {
+	height: 265px;
+	background: none;
+	/* border: 4px solid brown; */
+}
+
+.aboutus-block {
+	position: relative;
+	box-sizing: border-box;
+	margin: auto;
+	padding: auto;
+	text-align: auto;
+	height: 1681px;
+	width: 900px;
+	/* border: 4px solid blue; */
+}
+
+.column {
+	position: relative;
+	display: block;
+	vertical-align: center;
+	width: 545px;
+	margin-bottom: 70px;
+	z-index: 10;
+	/* border: 4px solid blue; */ 
+}
+
+.column :last-child {
+	margin-bottom: 0;
+}
+
+.left {
+	float: left;
+	text-align: right;
+}
+
+.right {
+	float: right;
+	text-align: left;
+}
+
+.team-discription {
+	font-size: 18px;
+	width: 595px;
+	text-align: center;
+	line-height: 1.2;
+}
+
+.circle-demo {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	border-color: rgb(241, 241, 241);
+	border-width: 7px;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+}
+
+.circle-container {
+	border-width: 7px;
+	border-color: rgb(241, 241, 241);
+	border-radius: 50%;
+	width: 186px;
+	height: 186px;
+}
+
+.aboutus-column-circle {
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	border-style: solid;
+	border-width: 7px;
+	border-color: rgb(241, 241, 241);
+	border-radius: 50%;
+	background-color: rgb(254, 209, 54);
+	width: 184px;
+
+}
+
+.content-container {
+	display: inline-block;
+	width: 300px;
+	line-height: 1.45;
+	float: right;
+  padding-right: 15px;
+   
+}
+
+.humble-content,
+.darkdays-content {
+	float: left;
+}
+
+.last-child {
+	display: inline-block;
+	text-align: center;
+}
+
+.circle-last-child {
+	background-color: #fed136;
+	text-align: center;
+	line-height: 1.2;
+	font-size: 18px;
+	font-family: "Montserrat" sans-serif;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+	text-align: center;
+}
+
+.last-child .circle-container {
+	margin: 0 auto;
+}
+
+.circle-text-conteiner {
+	width: 105px;
+	height: 92px;
+	padding-top: 36px;
+	padding-bottom: 32px;
+	padding-left: 27px;
+  
+}
+
+.botton-aboutus {
+	display: block;
+	width: 240px;
+	height: 65px;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-decoration: none;
+	margin-top: 66px;
+	padding-bottom: 100px;
+}
+
+
+/*...........................................*/
+
+
+/*......Our Amazing Team.........*/
+
+.team {
+  background-color: rgb(249, 249, 249);
+}
+
+.team-container-item {
+	display: inline-block;
+	width: 280px;
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: top;
+  margin-left: 20px;
+
+}
+
+.article-subtitle,
+.team-discription {
+	padding-bottom: 15px;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14;
+	font-style: normal;
+	line-height: 1.2;
+}
+
+.black-circle{
+  width: 230px;
+	height: 230px;
+}
+
+.sprite {
+	display: inline-block;
+	background-image: url(https://image.ibb.co/grPNKJ/social_sprint.png);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+}
+
+.twitter {
+	background-position: -0px -54px;
+}
+
+.facebook {
+	background-position: -50px -54px;
+}
+
+.pinterest {
+	background-position: -100px -54px;
+}
+
+.googleplus {
+	background-position: -150px -54px;
+}
+
+.twitter:hover {
+	background-position: -0px -0px;
+}
+
+.facebook:hover {
+	background-position: -50px -0px;
+}
+
+.pinterest:hover {
+	background-position: -100px -0px;
+}
+
+.googleplus:hover {
+	background-position: -150px -0px;
+}
+
+.team-discription {
+	font-size: 16;
+	text-align: center;
+	margin: auto;
+	padding: 0;
+	padding-top: 30px;
+  padding-bottom: 160px;
+	width: 650px;
+}
+
+
+
+/*.....................*/
+
+.logos {
+	padding-bottom: 40px;
+	margin: auto;
+}
+
+.logos-item {
+	display: inline-block;
+	padding-right: 35px;
+}
+
+
+/*.....................*/
+
+
+/*.....Contact Us..........*/
+
+.contactus {
+	background: url(https://image.ibb.co/iBOaFe/Map.png) no-repeat center top / cover;
+	text-align: center;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin: auto;
+	padding: 0;
+}
+
+button,
+.contactus-title {
+	color: white;
+}
+
+.contactus-subtitle {
+	color: #777777;
+}
+
+.form-plus-button {
+	padding-bottom: 130px;
+}
+
+.contactus-form {
+	display: inline-block;
+	height: 220px;
+	box-sizing: border-box;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+fieldset {
+	vertical-align: top;
+	border: none;
+	width: 50%;
+	height: 210px;
+	padding: 0;
+	margin: 0;
+}
+
+input {
+	width: 410px;
+	height: 50px;
+	margin: 10px;
+}
+
+.contactus-form-left {
+	float: left;
+	margin: auto;
+}
+
+.contactus-form-right {
+	float: right;
+	margin: auto;
+}
+
+.contactus-form-left-textarea {
+	border-radius: 5px;
+	margin: 0 0 23px 0;
+}
+
+.contactus-form-left-textarea:last-child {
+	margin-bottom: 0;
+}
+
+.contactus-form-right-message {
+	border-radius: 5px;
+	width: 410px;
+	height: 193px;
+	margin: 0;
+}
+
+.contactus-button {
+	display: inline-block;
+	margin: 0 auto;
+	width: 230px;
+	height: 65px;
+  margin-top: 30px
+}
+
+.contactus-form-left-textarea,
+.contactus-form-right-message {
+	font-size: 14px;
+	font-family: "Montserrat" sans-serif;
+	color: rgb(187, 187, 187);
+	font-weight: bold;
+	text-transform: uppercase;
+  
+
+}
+
+.contactus-form-right-message {
+	padding-top: 17px;
+	font-size: 16px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+input {
+	padding-right: 20px;
+  padding-left: 20px;
+  
+}
+
+
+/*.....................*/
+
+
+/*.......Bottom Footer........*/
+
+.footer {
+	display: block;
+	margin: 0 auto;
+	padding: 28px;
+}
+
+.footer-block {
+	display: inline-block;
+	width: auto;
+	box-sizing: border-box;
+	padding-right: 40px;
+}
+
+.footer-icons {
+	display: inline-block;
+	margin: 0 auto;
+  padding-left: 95px
+}
+
+.footer-copyright {
+	display: inline-block;
+	font-size: 14px;
+	font-family: "Montserrat";
+	color: rgb(85, 85, 85);
+	line-height: 1.571;
+	font-weight: bold;
+	float: left;
+}
+
+.footer-sprite {
+	display: inline-block;
+	background-image: url(https://image.ibb.co/i1mUrK/social_sprint_Footer.jpg);
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.twitter {
+	background-position: -0px -54px;
+}
+
+.facebook {
+	background-position: -50px -54px;
+}
+
+.pinterest {
+	background-position: -100px -54px;
+}
+
+.googleplus {
+	background-position: -150px -54px;
+}
+
+.twitter:hover {
+	background-position: -0px -0px;
+}
+
+.facebook:hover {
+	background-position: -50px -0px;
+}
+
+.pinterest:hover {
+	background-position: -100px -0px;
+}
+
+.googleplus:hover {
+	background-position: -150px -0px;
+}
+
+
+/*.....................*/
